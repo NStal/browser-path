@@ -82,11 +82,6 @@ for fail in fails
     console.log "mine",fail[1]
     console.log "node",fail[2]
     process.exit(0)
-dir = "/home/wuminghan/./../wuminghan/test.config.json"
-console.log path.path.dirname dir
-console.log path.path.extname dir
-console.log path.path.basename dir
-console.log path.path.normalize dir
-console.log path.path.join dir,"../test.coffee"
-console.log path.path.resolve dir,"../test.coffee/abc.config"
-console.log path.url.resolve '/a/b/c/./../d;p?q', '../g', 'http://a/b/g'
+
+console.log "total tests",uris.length
+console.log "total fails",fails.length

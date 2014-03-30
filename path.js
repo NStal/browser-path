@@ -1,5 +1,5 @@
 // recoded from from http://www.grauw.nl/articles/resolve-uri.html
-// make some fix for nodejs compatible
+// make many fix for nodejs compatible 
 
 (function(exports){    
     var uriregexp = new RegExp('^(([^:/?#]+):)?(//([^/?#]*))?([^?#]*)(\\?([^#]*))?(#(.*))?');
